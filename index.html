@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aurora & The Curse of Chambord</title>
+  </head>
+  <body>
+    
+    <!-- 🎬 HOME -->
+    <div class="castle-polaroid">
+  <img src="castle.jpg" alt="Castle">
+</div>
+    <div class="fog"></div>
+    <div id="home">
+      <h1>Aurora & The Curse of Chambord</h1>
+      <p>
+        A mysterious curse awakens inside a forgotten castle. Love, fear, and
+        destiny collide as Aurora must decide who to trust… and what she is
+        willing to lose.
+      </p>
+      <button class="play-btn" onclick="startGame()">▶ Play</button>
+    </div>
+    <footer class="home-footer">
+  <p>© 2026 Aurora & The Curse of Chambord</p>
+</footer>
+    
+
+    <!-- 🎮 GAME -->
+    <div id="game">
+      <div id="box">
+        <div id="bars">
+          <div class="bar"><div id="loveFill" class="fill"></div></div>
+          <div class="bar"><div id="curseFill" class="fill"></div></div>
+        </div>
+
+        <p id="story"></p>
+        <div id="choices"></div>
+
+        <button id="restart" class="netflix-btn" onclick="restart()">
+  ▶ Play Again
+</button>
+
+
+    <audio id="bg-music" loop>
+  <source src="Y&B Lana.mp3" type="audio/mpeg">
+</audio>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
