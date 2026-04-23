@@ -354,6 +354,8 @@ Aurora takes Louis' hand.
 Together, they break the curse.
 
 Light returns to the castle.
+
+They build a life together.
 `,
       [],
     );
