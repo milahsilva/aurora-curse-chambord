@@ -376,7 +376,10 @@ Louis reaches for her...
 
 But she is gone.
 
-Louis loses Aurora forever.`,
+He loses her  forever.
+
+The castle falls into silence.
+`,
       [],
     );
 
