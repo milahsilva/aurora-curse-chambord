@@ -232,7 +232,7 @@ Louis smiles gently.
 "We face this together."`,
     [
       { text: "💜 Stay close", action: scene7, type: "love" },
-      { text: "🌑 Doubt yourself", action: scene6, type: "curse" },
+      { text: "🌑 Pull away", action: scene6, type: "curse" },
     ],
   );
 }
