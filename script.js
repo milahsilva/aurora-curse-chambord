@@ -312,7 +312,7 @@ function scene10() {
   updateBars();
   setScene(`The darkness surrounds her completely...`, [
     { text: "🌑 Give in", action: finalBad, type: "cursse" },
-    { text: "💜 Last resistance", action: faceCurse, type: "love" },
+    { text: "💜 Resist", action: faceCurse, type: "love" },
   ]);
 }
 /* 💜 FACE CURSE*/
